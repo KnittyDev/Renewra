@@ -21,6 +21,11 @@
   backdrop-filter: blur(10px);
 }
 
+.glass-effect {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+}
+
 .text-gradient {
   background-clip: text;
   -webkit-background-clip: text;
@@ -30,4 +35,36 @@
 
 .perspective-1000 {
   perspective: 1000px;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(6deg); }
+  50% { transform: translateY(-10px) rotate(6deg); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.sidebar-link {
+  position: relative;
+  transition: all 0.2s;
+}
+
+.sidebar-link.active::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 24px;
+  width: 3px;
+  background-color: #13eccf;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.sidebar-link.active {
+  color: #0f172a;
+  background-color: #f1f5f9;
 }

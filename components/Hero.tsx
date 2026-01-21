@@ -39,6 +39,15 @@ export default function Hero() {
         <motion.p 
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          className="text-slate-500 text-sm md:text-base font-medium"
+        >
+          No bank connection required. No credit card needed.
+        </motion.p>
+        
+        <motion.p 
+          initial={{ y: 20, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.5 }}
           className="text-slate-600 text-lg md:text-xl font-normal leading-relaxed max-w-2xl"
         >
@@ -55,8 +64,21 @@ export default function Hero() {
             Start for Free
           </button>
           <button className="flex h-12 px-8 items-center justify-center rounded-xl bg-white border border-slate-200 hover:border-primary/50 text-slate-900 text-base font-bold transition-all hover:bg-slate-50 gap-2 group cursor-pointer">
-            <span className="material-symbols-outlined group-hover:text-primary transition-colors">play_circle</span>
-            Watch Demo
+            <motion.span
+              animate={{
+                scaleY: [1, 0.1, 1],
+              }}
+              transition={{
+                duration: 0.4,
+                repeat: Infinity,
+                repeatDelay: 3,
+                ease: "easeInOut",
+              }}
+              className="material-symbols-outlined group-hover:text-primary transition-colors"
+            >
+              visibility
+            </motion.span>
+            View Demo
           </button>
         </motion.div>
         

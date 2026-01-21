@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 export default function Header() {
   return (
@@ -24,9 +25,9 @@ export default function Header() {
           <a className="text-slate-600 hover:text-primary text-sm font-medium transition-colors" href="#">Resources</a>
         </nav>
         <div className="flex items-center gap-4">
-          <button className="hidden sm:flex text-slate-900 hover:text-primary text-sm font-semibold transition-colors">
+          <Link href="/login" className="hidden sm:flex text-slate-900 hover:text-primary text-sm font-semibold transition-colors">
             Log In
-          </button>
+          </Link>
           <button className="flex h-10 px-5 items-center justify-center rounded-xl bg-primary hover:bg-primary/90 text-slate-900 text-sm font-bold shadow-soft transition-all transform hover:scale-105 active:scale-95 cursor-pointer">
             Get Started
           </button>
