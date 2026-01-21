@@ -68,3 +68,12 @@
   color: #0f172a;
   background-color: #f1f5f9;
 }
+
+.toggle-checkbox:checked {
+  right: 0;
+  border-color: #13eccf;
+}
+
+.toggle-checkbox:checked + .toggle-label {
+  background-color: #13eccf;
+}
