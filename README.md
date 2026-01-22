@@ -149,7 +149,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/knittydev)
+- GitHub: [@knittydev](https://github.com/knittydev)
 - Email: arifcan1511@gmail.com
 
 ## 🙏 Acknowledgments
