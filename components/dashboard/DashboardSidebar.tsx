@@ -52,7 +52,14 @@ export default function DashboardSidebar() {
             12
           </span>
         </Link>
-        <Link href="#" className="sidebar-link flex items-center gap-3 px-4 py-3 text-sm font-medium rounded-xl text-slate-500 hover:text-slate-900 hover:bg-slate-50 mb-1">
+        <Link
+          href="/analytics"
+          className={`sidebar-link flex items-center gap-3 px-4 py-3 text-sm rounded-xl mb-1 ${
+            pathname === '/analytics'
+              ? 'active font-semibold text-slate-900'
+              : 'font-medium text-slate-500 hover:text-slate-900 hover:bg-slate-50'
+          }`}
+        >
           <span className="material-symbols-outlined text-[22px]">bar_chart</span>
           Analytics
         </Link>

@@ -136,7 +136,7 @@ export default function BurnRateControl() {
                   <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider">Statement of Account</h3>
                   <span className="text-xs text-slate-400">PG 1 OF 1</span>
                 </div>
-                <h4 className="text-lg font-bold text-slate-900">GLOBAL BANK</h4>
+                <h4 className="text-lg font-bold text-slate-900">ADRIATIC BANK</h4>
               </div>
 
               {/* Account Info */}

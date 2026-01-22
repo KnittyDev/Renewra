@@ -13,6 +13,15 @@ A modern, beautiful SaaS landing page for managing subscriptions. Built with Nex
 ### Hero Section
 ![Landing Hero](./public/landinghero.png)
 
+### Login Page
+![Login Page](./public/login.jpeg)
+
+### Register Page
+![Register Page](./public/register.jpeg)
+
+### Dashboard
+![Dashboard](./public/dashboard.jpeg)
+
 ### Dashboard & Analytics
 ![Analytics Dashboard](./public/analytics.png)
 
