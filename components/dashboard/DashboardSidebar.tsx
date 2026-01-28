@@ -63,7 +63,14 @@ export default function DashboardSidebar() {
           <span className="material-symbols-outlined text-[22px]">bar_chart</span>
           Analytics
         </Link>
-        <Link href="#" className="sidebar-link flex items-center gap-3 px-4 py-3 text-sm font-medium rounded-xl text-slate-500 hover:text-slate-900 hover:bg-slate-50 mb-1">
+        <Link
+          href="/billing"
+          className={`sidebar-link flex items-center gap-3 px-4 py-3 text-sm rounded-xl mb-1 ${
+            pathname === '/billing'
+              ? 'active font-semibold text-slate-900'
+              : 'font-medium text-slate-500 hover:text-slate-900 hover:bg-slate-50'
+          }`}
+        >
           <span className="material-symbols-outlined text-[22px]">credit_card</span>
           Billing
         </Link>
