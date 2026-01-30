@@ -185,7 +185,7 @@ export default function BurnRateControl() {
                       </div>
                       <span className="text-sm font-semibold text-slate-900">Netflix</span>
                     </div>
-                    <span className="text-sm font-bold text-slate-900 text-right">-€12.99</span>
+                    <span className="text-sm font-bold text-slate-900 text-right">-€9.99</span>
                   </motion.div>
 
                   {/* Spotify */}
