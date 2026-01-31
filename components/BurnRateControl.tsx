@@ -196,14 +196,14 @@ export default function BurnRateControl() {
                     transition={{ duration: 0.4, delay: 0.3 }}
                     className="grid grid-cols-[80px_1fr_100px] gap-4 items-center"
                   >
-                    <span className="text-sm font-medium text-slate-900">OCT 12</span>
+                    <span className="text-sm font-medium text-slate-900">OCT 7</span>
                     <div className="flex items-center gap-3">
                       <div className="w-8 h-8 rounded-lg bg-green-50 flex items-center justify-center">
                         <SiSpotify className="w-5 h-5 text-green-500" />
                       </div>
                       <span className="text-sm font-semibold text-slate-900">Spotify</span>
                     </div>
-                    <span className="text-sm font-bold text-slate-900 text-right">-€9.99</span>
+                    <span className="text-sm font-bold text-slate-900 text-right">-€4.99</span>
                   </motion.div>
 
                   {/* Vodafone */}
